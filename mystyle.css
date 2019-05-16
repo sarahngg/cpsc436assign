@@ -1,0 +1,150 @@
+html {
+  font-family: 'Vollkorn', serif;
+}
+
+body {
+  margin: 0;
+  background-color: #687789;
+  color: aliceblue;
+    
+}
+
+.navbar {
+  top: 0;
+  padding: 20px 0px;
+  text-align: center;
+  position: fixed;
+  background-color: #000000;
+  display: block;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-button {
+  padding: 15px;
+  margin: 0px 15px 0px 15px;
+  min-width: 100px;
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.navbar-button:hover {
+  color: #FF6A67;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+.page-content {
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: auto;
+  padding-right: auto;
+  max-width: 700px;
+}
+
+.centered {
+  margin: auto;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: 'Playfair Display', serif;
+  font-style: oblique;
+  font-weight: 500;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+  color: #FF6A67;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p {
+  padding-bottom: 1em;
+  font-family: 'Vollkorn', serif;
+}
+
+#chat-history {
+  background-color: #8697aa;
+  width: 100%;
+  font-size: 0.85em;
+  padding: 10px;
+  min-height: 10em;
+  position: relative;
+  line-height: 1.5em;
+    overflow: hidden;
+}
+
+#chat-history ul {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  list-style: none;
+}
+
+form {
+  text-align: center;
+}
+
+form textarea {
+  width: 100%;
+  background-color: grey;
+  color: azure;
+  padding: 10px;
+  resize: vertical;
+  min-height: 1.5em;
+  font-family: inherit;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: azure;
+  opacity: 0.5;  /* Firefox */
+}
+
+form button {
+  padding: 15px;
+  margin: 15px;
+  min-width: 100px;
+  text-decoration: none;
+  background-color: aliceblue;
+  text-transform: uppercase;
+  border: none;
+}
+
+form button:hover {
+  background-color: grey;
+  color: aliceblue;
+}
+
+.footer {
+  padding: 20px 0px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #000000;
+  display: block;
+  width: 100%;
+  color: #f0f0f0;
+  z-index: 100;
+}
+
+.sub {
+    background-color: lightgrey;
+}
+
+.sub:hover {
+    color: #FF6A67;
+    background-color: black;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+}
