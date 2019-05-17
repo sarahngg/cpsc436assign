@@ -2,7 +2,7 @@ let chatJSON = {"message": ["This is a chat box.", "The \"SEND\" button adds you
 let chatJSONString = JSON.stringify(chatJSON);
 let chatJSONObj = JSON.parse(chatJSONString);
 let chatObj = [];
-var emojiArr = ["🌚","😬","😳","🙃","🤔"];
+var emojiArr = ["🌚","😬","😳","🙃","🤔","🤓"];
 
 function initializeChatHistory() {
   for (let x in chatJSONObj.message) {
