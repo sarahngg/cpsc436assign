@@ -91,6 +91,8 @@ p {
 
 form {
   text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 form textarea {
@@ -101,6 +103,11 @@ form textarea {
   resize: vertical;
   min-height: 1.5em;
   font-family: inherit;
+}
+
+#input-name {
+  resize: none;
+  height: 1em;
 }
 
 ::placeholder {
