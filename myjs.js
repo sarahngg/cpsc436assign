@@ -4,6 +4,10 @@ let chatJSONObj = JSON.parse(chatJSONString);
 let chatObj = [];
 var emojiArr = ["🌚","😬","😳","🙃","🤔","🤓"];
 
+function initialize() {
+  initializeChatHistory();
+}
+
 function initializeChatHistory() {
   for (let x in chatJSONObj.message) {
     let message = chatJSONObj.message[x];
